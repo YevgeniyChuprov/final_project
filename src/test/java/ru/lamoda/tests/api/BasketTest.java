@@ -1,10 +1,16 @@
 package ru.lamoda.tests.api;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Owner;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import ru.lamoda.tests.api.models.*;
 import ru.lamoda.tests.api.steps.BasketSteps;
 
+@Tag("api")
+@Epic("API")
+@Owner("YevgeniyChuprov")
 public class BasketTest {
 
     @Test
