@@ -4,9 +4,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import ru.lamoda.tests.api.models.CookieModel;
-
-import java.util.Map;
+import ru.lamoda.config.WebDriverProvider;
 
 import static io.restassured.RestAssured.with;
 import static ru.lamoda.helpers.CustomApiListener.withCustomTemplates;
@@ -17,7 +15,7 @@ public class BaseSpecs {
             .baseUri("https://www.lamoda.ru")
             .filter(withCustomTemplates())
             .contentType("application/json")
-            .cookies(cookies())
+            .cookies("sid", WebDriverProvider.config.getCookie())
             .log().all();
 
     public static ResponseSpecification response200 = new ResponseSpecBuilder()
@@ -29,9 +27,4 @@ public class BaseSpecs {
             .log(LogDetail.ALL)
             .expectStatusCode(300)
             .build();
-
-    private static Map<String, String> cookies(){
-        Map<String, String> cookies = new CookieModel().cookies();
-        return cookies;
-    }
 }

@@ -5,7 +5,7 @@ import org.aeonbits.owner.ConfigFactory;
 
 public class WebDriverProvider {
 
-    static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
+    public static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
 
     public static void configuration() {
         Configuration.baseUrl = config.getBaseUrl();
@@ -15,6 +15,5 @@ public class WebDriverProvider {
         if (remoteUrl != null) {
             Configuration.remote = remoteUrl;
         }
-        System.out.println(remoteUrl);
     }
 }
