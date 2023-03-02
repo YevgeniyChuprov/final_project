@@ -10,6 +10,7 @@ import ru.lamoda.tests.web.pages.MainPage;
 @Feature("UI тесты lamoda.ru")
 @Story("Выбор местоположения")
 @Tag("ui")
+@Owner("chuprov")
 public class LocationTest extends TestBase {
     private final String locationMoscow = "г. Москва",
             locationUfa = "г. Уфа",
