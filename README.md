@@ -73,7 +73,8 @@ test
 ```BROWSER``` – браузер, в котором будут выполняться тесты.
 
 
-### <img src="./images/icons/jenkins-logo.svg" width="50" height="50"/> Запуск в **"Jenkins"**
+### <img src="./images/icons/jenkins-logo.svg" width="50" height="50"/>  <a name="Запуск в Jenkins">Запуск в [Jenkins](https://jenkins.autotests.cloud/job/final_project_lamoda/)</a>
+
 Главная страница сборки:
 
 <img src="./images/screens/jenkins_main.png" width="80%" height="80%"/>
@@ -82,7 +83,7 @@ test
 
 <img src="./images/screens/jenkins_param.png" width="80%" height="80%"/>
 
-### <img src="./images/icons/allure-Report-logo.svg" width="50" height="50"/> Сформированный отчет **"Allure Report"**
+### <img src="./images/icons/allure-Report-logo.svg" width="50" height="50"/> <a name="Сформированный отчет Allure Report">Сформированный отчет **[Allure Report](https://jenkins.autotests.cloud/job/final_project_lamoda/17/allure/)</a>**
 
 Основной дашборд:
 
@@ -92,7 +93,7 @@ test
 
  <img src="./images/screens/allure-behaviors.png" width="80%" height="80%"/>
 
-### <img src="./images/icons/allure-ee-logo.svg" width="50" height="50"/> Интеграция с **"Allure TestOps"**
+### <img src="./images/icons/allure-ee-logo.svg" width="50" height="50"/> <a name="Интеграция с Allure TestOps">Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/19781)</a>
 
 Основной дашборд:
 
