@@ -86,21 +86,21 @@ test
 
 Основной дашборд:
 
- <img src="./images/screens/allure_report.PNG" width="80%" height="80%"/>
+ <img src="./images/screens/allure_report.png" width="80%" height="80%"/>
 
 Список тестов с результатами прогона:
 
- <img src="./images/screens/allure-behaviors.PNG" width="80%" height="80%"/>
+ <img src="./images/screens/allure-behaviors.png" width="80%" height="80%"/>
 
 ### <img src="./images/icons/allure-ee-logo.svg" width="50" height="50"/> Интеграция с **"Allure TestOps"**
 
 Основной дашборд:
 
-<img src="./images/screens/allure_testops_report.PNG" width="80%" height="80%"/>
+<img src="./images/screens/allure_testops_report.png" width="80%" height="80%"/>
 
 Список тестов с результатами прогона:
 
-<img src="./images/screens/allure_testops_behaviors.PNG" width="80%" height="80%"/>
+<img src="./images/screens/allure_testops_behaviors.png" width="80%" height="80%"/>
 
 ### <img src="./images/icons/Telegram.svg" width="50" height="50"/> Уведомления в Telegram с использованием бота
 
