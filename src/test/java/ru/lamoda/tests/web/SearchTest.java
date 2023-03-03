@@ -1,6 +1,7 @@
 package ru.lamoda.tests.web;
 
 import io.qameta.allure.*;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import ru.lamoda.tests.TestBase;
@@ -18,6 +19,7 @@ public class SearchTest extends TestBase {
 
     @Test
     @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Поиск существующего товара")
     public void searchProduct() {
         new MainPage().search(productName);
         new SearchPage().checkProduct(productName);
@@ -25,6 +27,7 @@ public class SearchTest extends TestBase {
 
     @Test
     @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Поиск не существующего товара")
     public void wrongSearchProduct() {
         new MainPage().search(wrongSearch);
         new SearchPage().checkWrongSearch(wrongSearch);

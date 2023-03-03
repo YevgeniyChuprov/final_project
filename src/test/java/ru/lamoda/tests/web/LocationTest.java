@@ -28,7 +28,7 @@ public class LocationTest extends TestBase {
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
-    @Description("Проверка выбора города из списка")
+    @Description("Проверка выбора города водом текста")
     public void changeLocationEnteringName() {
         new MainPage().clickLocation()
                 .enterLocationName(locationUfa)
